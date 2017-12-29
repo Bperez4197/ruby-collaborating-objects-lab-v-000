@@ -9,7 +9,7 @@ attr_accessor :path
   def files
     files = []
     Dir.new(self.path).each do |file|
-      files << file if file.lenth > 4
+      files << file if file.length > 4
     end
     files
   end
