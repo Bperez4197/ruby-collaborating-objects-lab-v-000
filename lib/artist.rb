@@ -32,6 +32,6 @@ class Artist
       self.create(name)
     end
   end
-      
+
 
 end
